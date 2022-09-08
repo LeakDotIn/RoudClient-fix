@@ -85,7 +85,6 @@ namespace RoudClient
         private void Form1_Load(object sender, EventArgs e)
         {
             game_Panel.Show();
-            RPC();
             onay = "true";
             rambox.Text = "Ram: "+localSaves.Default.ram;
             ramvalue.Text = localSaves.Default.ram;
@@ -125,26 +124,12 @@ namespace RoudClient
             settingsPanel.Hide();
             shadow.Hide();
             ayarlarlabel.Hide();
-            
+
             localSaves.Default.username = "";
             localSaves.Default.Save();
             namebox.Clear();
             gameStart.Visible = false;
-            login_Panel.Show(); 
-        }
-
-        private DiscordRpc.EventHandlers handlers;
-        private DiscordRpc.RichPresence presence;
-        void RPC()
-        {
-            this.handlers = default(DiscordRpc.EventHandlers);
-            DiscordRpc.Initialize("926149800641040424", ref this.handlers, true, null);
-            this.presence.details = "Launcher'da bekliyor";
-            this.presence.state = "Syroex Craft";
-            this.presence.largeImageKey = "syroex_pp";
-            this.presence.largeImageText = "syroex_pp";
-            this.presence.startTimestamp = (long)(DateTime.UtcNow - new DateTime(1970, 1, 1, 0, 0, 0)).TotalSeconds;
-            DiscordRpc.UpdatePresence(ref this.presence);
+            login_Panel.Show();
         }
 
         private void guna2ControlBox1_Click(object sender, EventArgs e)
@@ -282,17 +267,6 @@ namespace RoudClient
 
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            WebClient webclient = new WebClient();
-            if (webclient.DownloadString("https://spanel.syroex.com/kontrol.txt").Contains("1"))
-            {
-                timer1.Stop();
-                TopMost = true;
-                MessageBox.Show("LAUNCHER HAMZALESS TARAFINDAN KULLANIM DIŞI EDİLMİŞTİR | Developer: Hamzaless#8267", "Devre Dışı! | Developer: Hamzaless#8267");
-                Application.Exit();
-            }
-        }
 
         private void ayarlarlabel_Click(object sender, EventArgs e)
         {

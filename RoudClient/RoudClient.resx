@@ -121,7 +121,7 @@
   <data name="guna2PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsOAAALDgFAvuFBAAAAB3RJ
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAAAB3RJ
         TUUH5gcNDiwX/P+VkQAA/3NJREFUeF7snQWYU0f3xjfJRnZxqLu7Ql0/KkiRAoVCizul1N3d/d+v8tXd
         3RVKBdriUCgFWiju7nb+7zt3bvYmmWST3WQ3C/M+z++BTe69ucmdM3Nm5syZAquK0ayOvoJFXXwFC7v4
         zl7fq+B76VNwOzgW1AAFXqysrKyqmuLrMbAtaAz+t6ZnwUfzOvsOXdDZp+pCK6utSiz0w872Fwxv5a87
@@ -1635,12 +1635,12 @@
 </value>
   </data>
   <metadata name="guna2Elipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>341, 61</value>
+    <value>353, 25</value>
   </metadata>
   <data name="pp.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAgAAAAIACAYAAAD0eNT6AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
-        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsOAAALDgFAvuFBAAAAB3RJ
+        JQAAgIMAAPn/AACA6QAAdTAAAOpgAAA6mAAAF2+SX8VGAAAACXBIWXMAAAsMAAALDAE/QCLIAAAAB3RJ
         TUUH5gcNDiwX/P+VkQAA/3NJREFUeF7snQWYU0f3xjfJRnZxqLu7Ql0/KkiRAoVCizul1N3d/d+v8tXd
         3RVKBdriUCgFWiju7nb+7zt3bvYmmWST3WQ3C/M+z++BTe69ucmdM3Nm5syZAquK0ayOvoJFXXwFC7v4
         zl7fq+B76VNwOzgW1AAFXqysrKyqmuLrMbAtaAz+t6ZnwUfzOvsOXdDZp+pCK6utSiz0w872Fwxv5a87
@@ -29279,8 +29279,5 @@
   </metadata>
   <metadata name="guna2Elipse5.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>230, 6</value>
-  </metadata>
-  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>1069, 56</value>
   </metadata>
 </root>
